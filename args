@@ -1,0 +1,17 @@
+def compress_string(*args):
+    for i in args:
+        ch=0
+        a=''
+        for y in i:
+            if y not in a:
+                ch=i.count(y)
+                print(y,ch,sep='',end='')
+                a+=y
+                ch=0
+def main():
+    input_string = input()
+    compressed_string = compress_string(*input_string.split()) 
+    print(compressed_string)
+
+if __name__ == "__main__":
+    main()                
