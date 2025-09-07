@@ -1,0 +1,10 @@
+s=eval(input())
+ln=[]
+lp=[]
+for i in s:
+    if i>=0:
+        lp.append(i)
+    else:
+        ln.append(i)
+a=ln+lp        
+print(a)        

@@ -1,0 +1,7 @@
+n=int(input())
+l=tuple(map(int,input().split()))
+m=int(input())
+l2=tuple(map(int,input().split()))
+for i in range(n):
+    if l[i]==l2[i]:
+        print(l[i]," ",end='')
