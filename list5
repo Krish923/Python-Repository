@@ -1,0 +1,16 @@
+n=int(input())
+lst=[]
+for i in range(n):
+    """Id=int(input())
+    lst.append(Id)
+    l=list(map(int.input().split()))
+    lst.append(l)"""
+    s=eval(input())
+    lst.append(s)
+th=int(input())
+#print(lst)
+for i in lst:
+    for j in i[1]:
+        if j>th:
+            print(j,end=" ")
+#for i in range(n*2):
